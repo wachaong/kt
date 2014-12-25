@@ -246,11 +246,16 @@ public class CommonFunc {
                  .getTime());  
          System.out.println(dayBefore);
          */
+		//System.out.println("/dw/ods/ods_search_searchlog/20141221/AutohomeSearchLog.dbo.AutohomeAnalysisLog_20141221".split("/")[4]);
+		System.out.println("/dw/mds/mds_autohome_pvlog/20141224/aaa.lzo".split("/")[4]);
 		
+		
+		/*
 		Date d = new SimpleDateFormat("yyyyMMdd").parse("20141208");
 			Date d2 = new SimpleDateFormat("yyyyMMdd").parse("20141209");
 			long diff = d2.getTime() - d.getTime();
 			System.out.println(diff/(1000*60*60*24));
+			*/
 		/*
 		Map<Integer, SparseVector> weight_maps = new HashMap<Integer, SparseVector>();
 		
